@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: "Montserrat";
+}
+.nav{
+    background-color: #2C3E50;
+    color: white;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.navh1{
+    display: grid;
+    justify-content: center;
+}
+.divnav {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    align-items: center;
+    font-size: 10px;
+}
+.h3-1{
+    display: grid;
+    grid-column: 2;
+    justify-content: end;
+}
+.h3-2{
+    display: grid;
+    grid-column: 3;
+    justify-content: center;
+}
+.h3-3{
+    display: grid;
+    grid-column: 4;
+}
+.container2{
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+.container3{
+    text-align: center;
+    padding: 50px;  
+}
+.container3 img{
+    border-radius:10px;
+}
+.grid1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto;
+    gap: 20px 20px;
+    width: 50%;
+}
+.grid1 img{
+    width: 100%;
+}
+.container4{
+    background-color: red;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+.container5{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 50px;
+    justify-items: center;
+    line-height: 1.6;
+}
+.container5 h1,p{
+    font-size: 15px;
+    text-align: center;   
+}
+.container5 h1{
+    font-size: 18px;
+}
+.form{
+    display: grid;
+    grid-column: 2;
+}
+.form h1{
+    padding: 40px;
+    font-size: 30px;
+}
+input[type=text] {
+    border: none;
+    border-bottom: 1px solid rgb(200, 200, 200);
+    width: 500px;
+  }
+input[type=message]{
+    border: none;
+    border-bottom: 1px solid rgb(200, 200, 200);
+    width: 500px;
+    height: 150px;
+}
+label{
+    color: rgb(101, 101, 101);
+}
+.btn{
+    background-color: red;
+    color: white;
+    border: red;
+    height: 50px;
+    width: 75px;
+    border-radius: 10px;
+}
+footer{
+    background-color: #2C3E50;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 40%;
+    margin: auto;
+}
+.endpage{
+    background-color: #1A252F;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+#logo{
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: 10px;
+}
