@@ -118,6 +118,10 @@ footer{
     grid-template-columns: 1fr 1fr;
     width: 40%;
     margin: auto;
+    gap: 20px;
+}
+.grid2 p{
+    text-align: left;
 }
 .endpage{
     background-color: #1A252F;

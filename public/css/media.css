@@ -1,7 +1,10 @@
 @media (max-width: 1024px){
     .grid2{
-        width: 80%;
+        width: 80%; 
     } 
+    .grid2 p{
+        text-align: center;
+    }
 }
 @media (min-width: 740px) and (max-width: 1023px){
     .grid2{
@@ -14,6 +17,9 @@
     }
 }
 @media (min-width: 320px) and (max-width: 739px){
+    .container2 img{
+        width: 40%;
+    }
     input[type=text] {
         width: 250px;
       }
